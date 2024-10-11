@@ -1,0 +1,66 @@
+# Build results
+[Dd]ebug/
+[Rr]elease/
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio specific files
+.vs/
+*.suo
+*.user
+*.userprefs
+*.sln.ide
+
+# Rider specific files
+.idea/
+
+# Visual Studio Code specific files
+.vscode/
+
+# DotNet specific files
+project.lock.json
+project.fragment.lock.json
+*.db
+*.db-journal
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# User-specific files
+*.sublime-workspace
+*.sublime-project
+*.code-workspace
+
+# Package files
+*.nupkg
+*.snupkg
+
+# Test results
+TestResults/
+*.trx
+
+# Coverage reports
+coverage/
+*.coverage
+*.coveragexml
+
+# Secrets
+*.pfx
+*.key
+*.jks
+
+# Others
+*.bak
+*.swp
+Thumbs.db
+ehthumbs.db
+
+# Ignore settings files for different environments
+appsettings.Development.json
+appsettings.Production.json
+appsettings.Staging.json
+
+# Ignore the NuGet packages folder
+**/packages/
