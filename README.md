@@ -4,11 +4,12 @@
 - Cambiar en archivo BancoInfrastructure/Contexto/BancoContexto.cs las credenciales del metodo "UseSqlServer" para apuntar a base local de prueba
  
 # Ejecutar Script en Sql Server Management Studio
+
+```sql
 CREATE Database BancoDB
 
 use BancoDB
 
-```sql
 CREATE TABLE categorias (
 	Id UNIQUEIDENTIFIER NOT NULL PRIMARY KEY DEFAULT NEWID(),
 	Nombre VARCHAR(256) NOT NULL,
